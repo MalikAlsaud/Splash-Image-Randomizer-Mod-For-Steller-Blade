@@ -1,4 +1,4 @@
-# Splash-Image-Randomizer-Mod
+# Splash Image Randomizer Mod For Steller Blade
 
 A mod to change the splash image every time Steller Blade runs
 
