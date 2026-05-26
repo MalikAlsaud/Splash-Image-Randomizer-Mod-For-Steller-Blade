@@ -37,4 +37,10 @@ exit
 :error
 for %%F in ("%SCRIPT_DIR%\*.jpg") do del /f /q "%%~fF"
 for %%F in ("%SCRIPT_DIR%\*.png") do del /f /q "%%~fF"
-exit /b 1
+if "%~1"=="" (
+    cd /d "%~dp0..\..\.."
+    start "" "SB.exe"
+) else (
+    start "" %*
+)
+exit
